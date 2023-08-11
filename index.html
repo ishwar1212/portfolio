@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/a1b227ce3d.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hearder">
+        <nav>
+            <h3>Portfolio</h3>
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+       
+    </div>
+   <div class="home-d">
+    <div class="header-text">
+        <p>Web Disgn</p>
+        <h1>Hi, I'm <span>Ishwar</span> Bade <br> From Maharastra</h1>
+    </div>
+    <div id="header">
+         <img src="/images/portfolioa.png" alt="" id="imgp">
+
+    </div>
+   </div>
+
+   <!-- About section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/portfolioa.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, expedita? Qui delectus esse modi! Quo obcaecati provident amet consectetur, quibusdam omnis, quisquam, quas eius ea enim qui eos! Molestias harum unde delectus officia, aperiam saepe obcaecati adipisci illum. Nesciunt fugit beatae quaerat facilis. Earum eum, est in similique temporibus laborum?</p>
+                <div class="tab-title">
+                    <p class="tab-links active" onclick="opentabs('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentabs('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentabs('education')">Education</p>
+                </div>
+                <div class="tab-contents active-1" id="skills">
+                    <ul>
+                        <li><span>UI/IX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>Web Development</span><br>Building Web apps using Angular</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-2022</span><br>Chemical Plant Operator at Elantas Back Ltd.Pune. </li> 
+                        <li><span>2023-current</span><br>I am Fresher in Web Devlopment.</li>
+
+                      
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-current</span><br>Full Stack Web Develipment Course at Edubrige</li>
+                        <li><span>2022-current</span><br> B.sc Science at Shivajurao Kardile College.</li>
+                        <li><span>2015-2017</span><br>12<sup>th</sup>Science at Shri Sadguru Highschool Mehekari,Ahmednagar  </li>
+                        <li><span>2019-2021</span><br>ITI in AOCP at Gov ITI,Ahmednagar  </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!-- service secion -->
+
+<div id="services">
+    <div class="contener">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Devlopment</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, ipsam? Ipsam dolor facilis accusamus maxime!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Devlopment</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, ipsam? Ipsam dolor facilis accusamus maxime!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web App Devlopment</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, ipsam? Ipsam dolor facilis accusamus maxime!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------- portfolio  ------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/portfolioa.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias culpa quibusdam incidunt.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/portfolioa.png" alt="">
+                <div class="layer">
+                    <h3>E-Comers App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias culpa quibusdam incidunt.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/portfolioa.png" alt="">
+                <div class="layer">
+                    <h3>Messages App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias culpa quibusdam incidunt.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------- contact section ------------------>
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>  
+                <p><i class="fa-solid fa-paper-plane"></i>ibade572@gmail.com</p>  
+                <p><i class="fa-solid fa-square-phone"></i>8766407344</p>   
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                </div> 
+                    <a href="/images/Resume.pdf" download class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" id="name" required>
+                    <input type="email" name="email" placeholder="Your Email" id="email" required>
+                    <textarea name="Massage" id=""  rows="6" placeholder="Your message"></textarea>
+                    <input type="button" name="btn"  class="btn btn-2" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Made with Ishwar </p>
+    </div>
+   </div>
+    
+</body>
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+
+    var tabContents = document.getElementsByClassName("tab-contents");
+
+    function opentabs(tabname){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active");
+
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-1");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-1");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("side-menu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</html>
